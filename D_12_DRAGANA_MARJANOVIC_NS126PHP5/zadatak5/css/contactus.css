@@ -1,0 +1,139 @@
+body {
+  background-color: yellow;
+  min-height: 100vh;
+  position: relative;
+}
+
+.grupa {
+  padding: 200px;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  background-color: blue;
+
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+
+}
+
+header ul li {
+  font-size: 17px;
+  justify-content: space-around;
+  width: 46%;
+
+}
+
+
+ul li a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+
+
+}
+
+footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: gray;
+  display: flex;
+  justify-content: space-around;
+
+}
+
+footer ul {
+  list-style: none;
+
+}
+
+footer ul li {
+  display: inline-flex;
+  margin-left: 30px;
+
+}
+
+footer ul li a {
+  color: white;
+  text-decoration: none;
+
+}
+
+textarea {
+  border: none;
+}
+
+legend {
+  font-size: xx-large;
+  font-weight: bold;
+  text-align: center;
+}
+
+label {
+  font-size: medium;
+  font-weight: bold;
+
+
+}
+
+input {
+  width: 100%;
+  height: 30px;
+  border: none;
+
+}
+
+button {
+  width: 70px;
+  height: 30px;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: bold;
+  background-color: blue;
+  border: none;
+
+}
+
+@media (max-width:576px) {
+  header ul li {
+    width: 25%;
+  }
+}
+
+
+
+@media (max-width:576px) {
+  form textarea {
+    width: 160px;
+  }
+}
+
+@media (max-width:992px) {
+  form {
+    margin-right: 300px;
+  }
+}
+
+@media (max-width:992px) {
+  form textarea {
+    width: 277px;
+  }
+}
+
+@media (max-width:992px) {
+  header ul li {
+    width: 25%;
+  }
+}
+
+@media (max-width:992px) {
+  footer img {
+    width: 10%;
+  }
+}

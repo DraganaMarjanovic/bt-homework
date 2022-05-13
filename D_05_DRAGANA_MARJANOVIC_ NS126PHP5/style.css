@@ -1,0 +1,122 @@
+
+
+body {
+    background-color: aquamarine;
+}
+ul {
+
+    list-style-type: none;
+    margin: 70px;
+    padding: 5px;
+  }
+  
+  li {
+  
+    float: left;
+  }
+  
+  a {
+  
+    display: block;
+    padding: 10px;
+    background-color: yellow;
+    font-size: x-large;
+    font-weight: bold;
+  }
+
+nav:hover {
+
+    cursor: pointer;
+}
+
+
+
+.container {
+    display: flex;
+    border: 1px solid black;
+    margin: 30px;
+  
+
+}
+
+
+
+#slika {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.podaci {
+    margin: 50px;
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: 17px;
+    }
+    
+    .podaci button {
+        width: 100px;
+        height: 50px;
+        margin-bottom: 15px;
+        font-size: large;
+    }
+    #fol {
+        background-color: blue ;
+        color: white;
+        
+    }
+    
+    #sub:hover {
+        background-color: blue;
+    }
+
+
+
+
+.forma {
+    flex: 2;
+    border: 2px solid rgb(255, 238, 0);
+
+}
+
+
+.forma {
+    flex: 2;
+    flex-direction: column;
+    margin-left: 15px;
+    width: 90%;
+}
+
+form>div {
+
+    padding: 20px;
+    border-bottom: 1px solid black;
+
+}
+
+form>button {
+    width: 60px;
+}
+
+.container >div{
+    flex: 1;
+}
+input {
+    border: none;
+   text-align: center;
+    width: 580px;
+    font-size: 25px;
+    float: right;
+}
+.forma button {
+    width: 100px;
+    height: 50px;
+    background-color: blue;
+}
+span {
+    float: right;
+    
+}
+label {
+   font-size: xx-large;
+}

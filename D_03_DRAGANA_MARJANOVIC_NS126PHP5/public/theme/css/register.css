@@ -1,0 +1,67 @@
+* {
+
+  cursor: pointer;
+}
+
+body {
+
+  background-color: royalblue;
+}
+
+ul {
+
+  list-style-type: none;
+  margin: 50px;
+  padding: 5px;
+}
+
+li {
+
+  float: left;
+}
+
+a {
+
+  display: block;
+  padding: 10px;
+  background-color: yellow;
+  font-size: x-large;
+  font-weight: bold;
+}
+
+form {
+  display: inline-block;
+  background-color: cornflowerblue;
+  width: 50%;
+  border-style: double;
+  margin: 10px 5px;
+
+}
+
+legend {
+
+  color: gold;
+  font-size: xx-large;
+
+}
+
+label {
+
+  font-size: 25px;
+  font-style: oblique;
+}
+
+
+.end {
+
+  margin: 100px;
+
+}
+
+#uvod {
+
+  text-align: center;
+  font-size: xx-large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: red;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prvi zadatak</title>
+</head>
+<body>
+    <form  action="zadatak1.php" method="GET" >
+
+
+        <div class="group">   
+            <label for="tezina"> Vasa tezina:</label>
+            <input type="number" id="tezina" name="tezina">
+
+        </div>
+        <hr>
+     <p><i>Vas faktor aktivnosti odredjuje se na osnovu Vaseg zanimanja. </i></p>  
+   <label><b>Zanimanje:</b ></label>
+    <div class="group">
+    <label for="programer">Programer,menadzer,admin.radnik</label>
+   <input type="radio" id="programer" name="zanimanje" value="jedan"> <br>
+   <label for="vojnik">Vojnik, policajac</label>
+   <input type="radio" id="vojnik" name="zanimanje" value="dva"> <br>
+   <label for="sport">Sportista</label>
+   <input type="radio" id="sport" name="zanimanje" value="tri"> <br>
+   <label for="ostalo">Ostalo</label>
+   <input type="radio" id="ostalo" name="zanimanje" value="cetiri"> <br>
+
+</div><hr>
+<div class="group">
+    <p><i>Faktor starosti odredjuje se na osnovu Vasih godina.</i></p>
+<label for="godine"> Broj godina:</label>
+<input type="number"  id="godine" name="godine">
+
+</div>
+<button type="submit" name="submit">submit</button>
+    </form>
+</body>
+</html>
